@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import React from 'react'
 import { ProductProvider } from './Home/ProductContext.tsx'
-import {ToggleProvider} from './Vendor/ThemeProvider'
+import {ToggleProvider} from './Vendor/ThemeProvider.tsx'
 
 createRoot(document.getElementById('root')!).render(
    <React.StrictMode>
