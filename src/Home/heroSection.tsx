@@ -99,7 +99,7 @@ export const HeroSection: React.FC = () => {
         {current && (
           <div
             onClick={() => navigate(`/view/${current._id}`)}
-            className="cursor-pointer mb-4 bg-white/20 backdrop-blur-md px-4 py-3 rounded-lg border border-white/30 ml-20"
+            className="cursor-pointer mb-3 bg-white/20 backdrop-blur-md px-4 py-3 rounded-lg border border-white/30 ml-7 "
           >
             {/* TITLE */}
             <p className="font-semibold text-lg">
@@ -147,7 +147,7 @@ export const HeroSection: React.FC = () => {
               navigate("/shop");
             }
           }}
-          className="px-6 py-2 bg-white text-blue-600 rounded-full font-semibold hover:bg-blue-50 transition ml-20"
+          className="px-6 py-2 bg-white text-blue-600 rounded-full font-semibold hover:bg-blue-50 transition ml-8"
         >
           Shop Now
         </button>
